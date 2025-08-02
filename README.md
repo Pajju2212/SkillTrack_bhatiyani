@@ -1,28 +1,36 @@
 # Skill Tracker
 
-A modern web application to track learning progress for multiple skills. Built with **React (frontend)**, **Flask (backend)**, and **Material UI** for a professional UI/UX. Visualizes skill progress using charts and supports full CRUD functionality.
+A **modern web application** to track your learning progress across multiple skills. Built with **React (frontend)**, **Flask (backend)**, and **Material UI** for a professional UI/UX. The app visualizes skill progress with interactive charts and provides full **CRUD functionality**.
 
 ---
 
-## Features
-- **Add Skills**: Track new skills with name, progress %, and hours spent.
-- **View Progress**: Display skills in clean cards and visualize data via charts.
-- **Delete Skills**: Remove unwanted skills instantly.
-- **Modern UI**: Gradient backgrounds, Material UI components, and responsive design.
+## 🚀 Features
+
+- **Add Skills** – Track new skills with name, progress %, and hours spent.
+- **Visual Progress** – Clean skill cards + data visualization using Chart.js.
+- **Delete Skills** – Remove unwanted skills with one click.
+- **Modern UI** – Gradient backgrounds, Material UI components, and fully responsive design.
 
 ---
 
-## Tech Stack
-- **Frontend**: React, Material UI, Chart.js
-- **Backend**: Flask (Python)
-- **Database**: In-memory / JSON (for demo; can extend to SQL/NoSQL)
-- **Styling**: MUI + custom gradient CSS
+## 🛠 Tech Stack
+
+**Frontend:**
+- React
+- Material UI
+- Chart.js
+
+**Backend:**
+- Flask (Python)
+
+**Database:**
+- JSON (Demo) → Extendable to SQL/NoSQL
 
 ---
 
-## Project Structure
+## 📂 Project Structure
+
 SkillTrack_bhatiyani/
-│
 ├── frontend/ # React application
 │ ├── src/
 │ │ ├── components/
@@ -31,27 +39,32 @@ SkillTrack_bhatiyani/
 │ │ ├── App.js
 │ │ └── api.js
 │ └── package.json
-│
 ├── backend/ # Flask backend
 │ ├── app.py
 │ └── requirements.txt
-│
 ├── prompts.md # AI prompts used during development
 └── README.md # Project documentation
 
+
 ---
 
-## Installation & Setup
+## ⚡ Installation & Setup
 
-### **Backend (Flask)**
+## 1. Backend (Flask)
+
 cd backend
 python -m venv venv
-source venv/bin/activate   # or venv\Scripts\activate on Windows
+# Activate virtual environment
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
 pip install -r requirements.txt
 python app.py
 
 Runs at: http://127.0.0.1:5000
-Frontend (React)
+
+## 2. Frontend (React)
 bash
 Copy
 Edit
@@ -60,14 +73,14 @@ npm install
 npm start
 Runs at: http://localhost:3000
 
-API Endpoints
+## 🔗 API Endpoints
 Get All Skills
-bash
+http
 Copy
 Edit
 GET /skills
 Add Skill
-bash
+http
 Copy
 Edit
 POST /skills
@@ -77,18 +90,18 @@ POST /skills
   "hours_spent": 10
 }
 Delete Skill
-bash
+http
 Copy
 Edit
-DELETE /skills/<id>
-Future Enhancements
+DELETE /skills/:id
+## 🎯 Future Enhancements
 Edit/Update skill progress
 
-User authentication
+User authentication (login/signup)
 
 Persistent database (PostgreSQL / MongoDB)
 
 Dark/Light theme toggle
 
-License
+## 📜 License 
 This project is for educational purposes and free to use.
