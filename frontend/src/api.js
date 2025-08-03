@@ -1,9 +1,8 @@
 // src/api.js
 import axios from "axios";
 
-const api = axios.create({
-  baseURL: "http://127.0.0.1:5000",
-});
+const API_BASE_URL = "https://skilltrack-bhatiyani-1.onrender.com";
+
 
 export const getSkills = () => api.get("/skills");
 export const addSkill = (skill) => api.post("/skills", skill);
