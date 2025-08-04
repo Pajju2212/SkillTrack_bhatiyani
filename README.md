@@ -12,6 +12,11 @@ A **modern web application** to track your learning progress across multiple ski
 - **Modern UI** – Gradient backgrounds, Material UI components, and fully responsive design.
 
 ---
+## Live URLs:
+
+- **Frontend (React)**: https://darling-medovik-311d1f.netlify.app/
+
+- **Backend (Flask on Railway)**: https://skilltrackbhatiyani-production.up.railway.app/
 
 ## 🛠 Tech Stack
 
